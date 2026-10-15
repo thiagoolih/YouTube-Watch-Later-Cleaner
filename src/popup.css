@@ -1,0 +1,56 @@
+:root {
+  --bg: #ffffff;
+  --fg: #1f1f1f;
+  --muted: #606060;
+  --card: #f3f3f4;
+  --card-hover: #e9e9eb;
+  --accent: #e53935;
+  --accent-hover: #c62828;
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #1f1f1f;
+    --fg: #f1f1f1;
+    --muted: #aaaaaa;
+    --card: #2c2c2e;
+    --card-hover: #38383b;
+  }
+}
+* { box-sizing: border-box; }
+body {
+  width: 320px;
+  margin: 0;
+  padding: 14px;
+  background: var(--bg);
+  color: var(--fg);
+  font: 13px/1.4 "Segoe UI", system-ui, -apple-system, Arial, sans-serif;
+}
+header { display: flex; align-items: center; gap: 10px; margin-bottom: 12px; }
+h1 { margin: 0; font-size: 15px; }
+#version { color: var(--muted); font-size: 11px; }
+.action {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+  width: 100%;
+  margin-bottom: 8px;
+  padding: 11px 12px;
+  border: 0;
+  border-radius: 10px;
+  background: var(--card);
+  color: inherit;
+  font: inherit;
+  text-align: left;
+  cursor: pointer;
+  transition: background .15s;
+}
+.action:hover { background: var(--card-hover); }
+.action svg { flex: none; width: 22px; height: 22px; margin-top: 1px; fill: currentColor; }
+.action strong { display: block; font-size: 14px; }
+.action small { display: block; margin-top: 2px; color: var(--muted); font-size: 12px; }
+.action.danger { background: var(--accent); color: #fff; }
+.action.danger:hover { background: var(--accent-hover); }
+.action.danger small { color: rgba(255, 255, 255, .85); }
+#status { margin: 4px 0 0; color: var(--fg); }
+#status:empty { display: none; }
+footer { margin-top: 10px; color: var(--muted); font-size: 11px; text-align: center; }

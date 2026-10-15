@@ -1,0 +1,12 @@
+{
+  "extName": { "message": "YouTube Watch Later Cleaner" },
+  "extDescription": { "message": "Bulk-remove (or restore) the videos in your YouTube Watch later playlist using your own logged-in session. 100% local, no data leaves your browser." },
+  "popupTitle": { "message": "Watch Later Cleaner" },
+  "btnClean": { "message": "Clean Watch later" },
+  "btnCleanHint": { "message": "Remove every video from your Watch later playlist. A backup is downloaded first." },
+  "btnRestore": { "message": "Restore from backup" },
+  "btnRestoreHint": { "message": "Add back the videos listed in a backup file." },
+  "openedTab": { "message": "Opened the page in a new tab. When it finishes loading, click the button again." },
+  "errorPrefix": { "message": "Error: " },
+  "disclaimer": { "message": "Unofficial. Not affiliated with YouTube or Google." }
+}

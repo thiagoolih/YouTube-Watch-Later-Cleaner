@@ -1,0 +1,12 @@
+{
+  "extName": { "message": "YouTube Watch Later Cleaner" },
+  "extDescription": { "message": "Remove (ou restaura) em massa os vídeos da sua playlist Ver mais tarde do YouTube usando a sua própria sessão logada. 100% local, nenhum dado sai do navegador." },
+  "popupTitle": { "message": "Watch Later Cleaner" },
+  "btnClean": { "message": "Limpar Ver mais tarde" },
+  "btnCleanHint": { "message": "Remove todos os vídeos da playlist Ver mais tarde. Um backup é baixado antes." },
+  "btnRestore": { "message": "Restaurar de um backup" },
+  "btnRestoreHint": { "message": "Adiciona de volta os vídeos listados em um arquivo de backup." },
+  "openedTab": { "message": "Abri a página em uma nova aba. Quando terminar de carregar, clique no botão de novo." },
+  "errorPrefix": { "message": "Erro: " },
+  "disclaimer": { "message": "Não oficial. Sem afiliação com o YouTube ou o Google." }
+}
