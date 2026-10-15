@@ -1,0 +1,13 @@
+{
+  "name": "youtube-watch-later-cleaner",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Browser extension to bulk-remove (or restore) the videos in YouTube Watch later.",
+  "license": "MIT",
+  "scripts": {
+    "test": "node tests/smoke.test.js"
+  },
+  "devDependencies": {
+    "jsdom": "^26.0.0"
+  }
+}

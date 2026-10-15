@@ -1,0 +1,5 @@
+node_modules/
+*.zip
+youtube-watch-later-backup_*.json
+.DS_Store
+Thumbs.db
