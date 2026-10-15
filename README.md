@@ -6,7 +6,7 @@ A small browser extension (Microsoft Edge, Google Chrome and other Chromium brow
 
 It runs entirely in your browser, using the session you are already logged into. No API keys, no Google Cloud project, no external servers.
 
-> Looking for the version that removes your *likes* instead? See **YouTube Likes Cleaner**.
+> Looking for the version that removes your *likes* instead? See **[YouTube Likes Cleaner](https://github.com/thiagoolih/YouTube-Likes-Cleaner)**.
 
 ## Features
 
