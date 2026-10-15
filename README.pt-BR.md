@@ -6,7 +6,7 @@ Uma pequena extensão para navegadores (Microsoft Edge, Google Chrome e outros b
 
 Tudo roda no seu navegador, usando a sessão em que você já está logado. Sem chave de API, sem projeto no Google Cloud e sem servidores externos.
 
-> Procurando a versão que remove os seus *likes*? Veja o **YouTube Likes Cleaner**.
+> Procurando a versão que remove os seus *likes*? Veja o **[YouTube Likes Cleaner](https://github.com/thiagoolih/YouTube-Likes-Cleaner)**.
 
 ## Recursos
 
